@@ -1,0 +1,28 @@
+{
+  "name": "taskmanger",
+  "version": "1.0.0",
+  "description": "CRUD operation for task manager ",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc jasmine",
+    "start": "node app.js",
+    "coverage": "nyc --reporter=lcov npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\t"
+  },
+  "author": "anita",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "jasmine": "^4.5.0",
+    "mongoose": "^6.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "nyc": "^15.1.0",
+    "supertest": "^6.3.3"
+  }
+}
